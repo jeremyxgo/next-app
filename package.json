@@ -1,0 +1,33 @@
+{
+  "name": "next-app",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix './src/**/*.{js,jsx,ts,tsx}'",
+    "format": "prettier --write './src/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^2.0.6",
+    "i18next": "^23.2.11",
+    "next": "13.4.10",
+    "next-i18next": "^14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^13.0.2",
+    "swr": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
+    "typescript": "5.1.6"
+  }
+}
